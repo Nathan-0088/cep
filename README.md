@@ -1,18 +1,90 @@
-# React + Vite
+# 📍 CEPcom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto desenvolvido em React que realiza consultas de CEP utilizando uma API de endereços.  
+Ao digitar um CEP válido, o sistema retorna automaticamente informações como rua, bairro, cidade e estado.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+- React
+- JavaScript
+- Vite
+- CSS
+- API ViaCEP
+- Fetch API
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- 🔎 Busca de endereço por CEP
+- 📍 Exibição automática dos dados
+- ⚡ Consulta em tempo real
+- 📱 Interface responsiva
+- ❌ Validação de CEP inválido
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📸 Preview
+
+Acesse o projeto online:
+
+[CEPcom](https://cepcom.vercel.app/)
+
+---
+
+## ⚙️ Como rodar o projeto
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+```
+
+Entre na pasta:
+
+```bash
+cd nome-do-projeto
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute o projeto:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧠 Aprendizados
+
+Nesse projeto foram praticados conceitos como:
+
+- Consumo de API REST
+- Requisições com Fetch
+- Manipulação de estados
+- Hooks do React
+- Tratamento de erros
+- Componentização
+
+---
+
+## 📌 Melhorias futuras
+
+- 🌙 Dark mode
+- 📋 Botão para copiar endereço
+- 🗂 Histórico de pesquisas
+- 🔄 Loading durante consulta
+- 📌 Integração com mapa
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Nathaniel Alves Ribeiro.
